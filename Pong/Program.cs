@@ -479,6 +479,7 @@ namespace Pong
         static void NewGame()
         {
             // Bugged, catches all input from game
+            // What if we use GetASync(h)KeyState for this logic chain?
             Console.CursorVisible = true;
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.SetCursorPosition(5, 29);
